@@ -17,6 +17,8 @@ namespace NUnitObjects.UnitTests
         {
             const string ACCOUNTNAME = "A";
             var account = new Account(ACCOUNTNAME);
+
+            Assert.IsNotNull(account);
             Assert.IsInstanceOf<Account>(account);
             Assert.AreEqual(ACCOUNTNAME, account.AccountName);
             Assert.AreEqual(0, account.Balance);
@@ -29,6 +31,7 @@ namespace NUnitObjects.UnitTests
             var startingBalance = new decimal(102000.14);
             var account = new Account(ACCOUNTNAME, startingBalance);
 
+            Assert.IsNotNull(account);
             Assert.IsInstanceOf<Account>(account);
             Assert.AreEqual(ACCOUNTNAME, account.AccountName);
             Assert.AreEqual(startingBalance, account.Balance);
@@ -42,8 +45,9 @@ namespace NUnitObjects.UnitTests
         public void Deposit()
         {
             var account = new Account("A");
+            Assert.IsNotNull(account);
             Assert.AreEqual(0m, account.Balance);
-
+      
             account.Deposit(100m);
             Assert.AreEqual(100m, account.Balance);
         }
@@ -52,6 +56,7 @@ namespace NUnitObjects.UnitTests
         public void Deposit_StartingBalance()
         {
             var account = new Account("A", 1000m);
+            Assert.IsNotNull(account);
             Assert.AreEqual(1000m, account.Balance);
 
             account.WithDraw(125m);
