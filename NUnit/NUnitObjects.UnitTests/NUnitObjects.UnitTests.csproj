@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="AccountTests.cs" />
     <Compile Include="AccountTestsWithSetUpTearDown.cs" />
+    <Compile Include="Attributes\RepeatTests.cs" />
     <Compile Include="Mocks\MockAccountRespository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
