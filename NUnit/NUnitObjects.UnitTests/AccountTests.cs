@@ -1,9 +1,6 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using NUnitObjects.Exceptions;
 using NUnitObjects.Models;
-using NUnitObjects.Repository;
-using NUnitObjects.UnitTests.Mocks;
 
 namespace NUnitObjects.UnitTests
 {
@@ -41,7 +38,7 @@ namespace NUnitObjects.UnitTests
 
         #region Methods Tests
 
-        [Test, Description("No stariting balance")]
+        [Test, Description("No starting balance")]
         public void Deposit()
         {
             var account = new Account("A");
@@ -79,7 +76,7 @@ namespace NUnitObjects.UnitTests
         }
 
         [Test]
-        public void TransferWithInsuffientFunds()
+        public void TransferWithInsufficientFunds()
         {
             var source = new Account("A");
             var destination = new Account("B", 1000m);
