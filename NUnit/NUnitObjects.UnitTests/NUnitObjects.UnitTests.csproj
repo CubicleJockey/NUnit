@@ -47,6 +47,7 @@
     <Compile Include="AccountTests.cs" />
     <Compile Include="AccountTestsWithSetUpTearDown.cs" />
     <Compile Include="Attributes\RepeatTests.cs" />
+    <Compile Include="Attributes\TheoryTests.cs" />
     <Compile Include="Mocks\MockAccountRespository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -58,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="ReadMe.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
