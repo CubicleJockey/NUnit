@@ -39,6 +39,8 @@ namespace NUnitObjects.Objects
                     throw new NotImplementedException("Oh noes n' stuff.");
                 case 3:
                     throw new ArgumentException("Something");
+                default:
+                    throw new Exception("Some unknown exception.");
             }
         }
 
