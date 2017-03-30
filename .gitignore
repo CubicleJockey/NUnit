@@ -279,3 +279,10 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Idea Rider IDE ignores
+.idea\
+.idea/
+**/.idea/
+NUnit/.idea/.idea.NUnit/.idea/workspace.xml
+NUnit/.idea/.idea.NUnit/riderModule.iml

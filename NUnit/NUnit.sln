@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitObjects", "NUnitObject
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitObjects.UnitTests", "NUnitObjects.UnitTests\NUnitObjects.UnitTests.csproj", "{0D3699E4-F8DC-4B0D-AB4F-0CBA5B550F0C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitItems", "GitItems", "{748985AC-8ACD-494F-8568-B613F34B8A58}"
+ProjectSection(SolutionItems) = preProject
+	..\.gitignore = ..\.gitignore
+	..\.gitattributes = ..\.gitattributes
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
