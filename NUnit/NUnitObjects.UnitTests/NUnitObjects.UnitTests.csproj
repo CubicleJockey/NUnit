@@ -50,8 +50,12 @@
     <Compile Include="AccountTestsWithSetUpTearDown.cs" />
     <Compile Include="Assertions\Exceptions.cs" />
     <Compile Include="Assertions\That.cs" />
+    <Compile Include="Assertions\Warnings.cs" />
     <Compile Include="Attributes\RepeatTests.cs" />
     <Compile Include="Attributes\TheoryTests.cs" />
+    <Compile Include="Constraints\AllItems.cs" />
+    <Compile Include="Constraints\And.cs" />
+    <Compile Include="Constraints\AssignableFrom.cs" />
     <Compile Include="Mocks\MockAccountRespository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Attributes\TestCaseTests.cs" />

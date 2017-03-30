@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using NUnit.Framework;
 using NUnitObjects.Objects;
 
@@ -66,6 +67,8 @@ namespace NUnitObjects.UnitTests.Assertions
 
             Assert.Multiple(() =>
             {
+                Assert.IsNotNull(result);
+                Assert.IsInstanceOf<ValueTuple<double, double>>(result);
                 WriteLine($"RealPart:[{result.RealPart}] - ImaginaryPart:[{result.ImaginaryPart}]");
                 Assert.That(result.RealPart, Is.InRange(0.0, 100.00), "Real Part");
                 Assert.That(result.ImaginaryPart, Is.InRange(0.0, 100.00), "Imaginary Part");
