@@ -46,8 +46,10 @@
     <Compile Include="Exceptions\AccountNotFoundException.cs" />
     <Compile Include="Exceptions\InsufficientFundsException.cs" />
     <Compile Include="Models\Account.cs" />
+    <Compile Include="Objects\AttributedObject.cs" />
     <Compile Include="Objects\DatCalculator.cs" />
     <Compile Include="Objects\ExceptionThrower.cs" />
+    <Compile Include="Objects\Item.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\IAccountRepository.cs" />
   </ItemGroup>
