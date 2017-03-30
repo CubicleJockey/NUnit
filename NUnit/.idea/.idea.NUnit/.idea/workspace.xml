@@ -11,55 +11,46 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="That.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NUnitObjects.UnitTests/Assertions/That.cs">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CollectionOrdering.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/CollectionOrdering.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+            <state relative-caret-position="300">
+              <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
-                <marker date="1490901065168" expanded="true" signature="6:114" ph="..." />
-                <marker date="1490901065168" expanded="true" signature="159:2976" ph="{...}" />
-                <marker date="1490901065168" expanded="true" signature="201:2974" ph="{...}" />
-                <marker date="1490901065168" expanded="true" signature="281:375" ph="{...}" />
-                <marker date="1490901065168" expanded="true" signature="442:713" ph="{...}" />
-                <marker date="1490901065168" expanded="true" signature="778:884" ph="{...}" />
-                <marker date="1490901065168" expanded="true" signature="894:2444" ph="///    1. The multiple assert block may contain any arbitrary code, not just asserts. ... " />
-                <marker date="1490901065168" expanded="true" signature="2499:2968" ph="{...}" />
-                <marker date="1490901065168" expanded="true" signature="2649:2956" ph="{...}" />
+                <marker date="1490908592763" expanded="true" signature="6:103" ph="..." />
+                <marker date="1490908592763" expanded="true" signature="149:1405" ph="{...}" />
+                <marker date="1490908592763" expanded="true" signature="205:1403" ph="{...}" />
+                <marker date="1490908592763" expanded="true" signature="270:538" ph="{...}" />
+                <marker date="1490908592763" expanded="true" signature="606:1397" ph="{...}" />
+                <marker date="1490908592763" expanded="true" signature="676:868" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../.gitignore">
+      <file leaf-file-name="CollectionSubset.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/CollectionSubset.cs">
           <provider selected="true" editor-type-id="text-editor">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../.gitattributes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatCalculator.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NUnitObjects/Objects/DatCalculator.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="150">
+              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding>
-                <marker date="1490900491197" expanded="true" signature="45:512" ph="{...}" />
-                <marker date="1490900491197" expanded="true" signature="78:510" ph="{...}" />
-                <marker date="1490900491197" expanded="true" signature="199:254" ph="{...}" />
-                <marker date="1490900491197" expanded="true" signature="328:504" ph="{...}" />
+                <marker date="1490908667818" expanded="true" signature="68:212" ph="{...}" />
+                <marker date="1490908667818" expanded="true" signature="122:210" ph="{...}" />
+                <marker date="1490908667818" expanded="true" signature="171:204" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NUnitObjects/Objects/Item.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+              <folding>
+                <marker date="1490907700391" expanded="true" signature="30:154" ph="{...}" />
+                <marker date="1490907700391" expanded="true" signature="54:152" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -74,8 +65,20 @@
         <option value="$PROJECT_DIR$/NUnitObjects.UnitTests/Assertions/Exceptions.cs" />
         <option value="$PROJECT_DIR$/NUnitObjects.UnitTests/Attributes/TheoryTests.cs" />
         <option value="$PROJECT_DIR$/NUnitObjects/Objects/DatCalculator.cs" />
-        <option value="$PROJECT_DIR$/NUnitObjects.UnitTests/Assertions/That.cs" />
         <option value="$PROJECT_DIR$/../.gitignore" />
+        <option value="$PROJECT_DIR$/NUnitObjects.UnitTests/Assertions/That.cs" />
+        <option value="$PROJECT_DIR$/NUnitObjects.UnitTests/Assertions/Warnings.cs" />
+        <option value="$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/AllItems.cs" />
+        <option value="$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/And.cs" />
+        <option value="$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/AssignableFrom.cs" />
+        <option value="$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/AssignableTo.cs" />
+        <option value="$PROJECT_DIR$/NUnitObjects/Objects/AttributedObject.cs" />
+        <option value="$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/Attribute.cs" />
+        <option value="$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/CollectionContains.cs" />
+        <option value="$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/CollectionEquivalent.cs" />
+        <option value="$PROJECT_DIR$/NUnitObjects/Objects/Item.cs" />
+        <option value="$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/CollectionOrdering.cs" />
+        <option value="$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/CollectionSubset.cs" />
       </list>
     </option>
   </component>
@@ -117,6 +120,10 @@
               <option name="myItemId" value="NUnit (2 projects)" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NUnitObjects.UnitTests" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -128,7 +135,53 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitItems" />
+              <option name="myItemId" value="NUnitObjects.UnitTests" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Constraints" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NUnit (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NUnitObjects" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NUnit (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NUnitObjects" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Objects" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NUnit (2 projects)" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -181,6 +234,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -216,10 +275,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490896653407</updated>
+      <workItem from="1490896658338" duration="4784000" />
+      <workItem from="1490901754511" duration="6886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11670000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -235,27 +297,27 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1748401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17643923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -272,11 +334,57 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/NUnitObjects.UnitTests/Assertions/That.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+          <folding>
+            <marker date="1490901871414" expanded="true" signature="6:128" ph="..." />
+            <marker date="1490901871414" expanded="true" signature="173:3105" ph="{...}" />
+            <marker date="1490901871414" expanded="true" signature="215:3103" ph="{...}" />
+            <marker date="1490901871414" expanded="true" signature="295:389" ph="{...}" />
+            <marker date="1490901871414" expanded="true" signature="456:727" ph="{...}" />
+            <marker date="1490901871414" expanded="true" signature="792:898" ph="{...}" />
+            <marker date="1490901871414" expanded="true" signature="908:2458" ph="///    1. The multiple assert block may contain any arbitrary code, not just asserts. ... " />
+            <marker date="1490901871414" expanded="true" signature="2513:3097" ph="{...}" />
+            <marker date="1490901871414" expanded="true" signature="2663:3085" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NUnitObjects/Objects/DatCalculator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <marker date="1490900491197" expanded="true" signature="45:512" ph="{...}" />
+            <marker date="1490900491197" expanded="true" signature="78:510" ph="{...}" />
+            <marker date="1490900491197" expanded="true" signature="199:254" ph="{...}" />
+            <marker date="1490900491197" expanded="true" signature="328:504" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4275">
+          <caret line="285" column="9" lean-forward="false" selection-start-line="285" selection-start-column="9" selection-end-line="285" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NUnitObjects.UnitTests/Mocks/MockAccountRespository.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -284,7 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -292,19 +399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-          <folding>
-            <marker date="1490899010471" expanded="true" signature="6:101" ph="..." />
-            <marker date="1490899010471" expanded="true" signature="133:1579" ph="{...}" />
-            <marker date="1490899010471" expanded="true" signature="169:1577" ph="{...}" />
-            <marker date="1490899010471" expanded="true" signature="308:566" ph="{...}" />
-            <marker date="1490899010471" expanded="true" signature="401:555" ph="{...}" />
-            <marker date="1490899010471" expanded="true" signature="710:763" ph="{...}" />
-            <marker date="1490899010471" expanded="true" signature="807:1198" ph="{...}" />
-            <marker date="1490899010471" expanded="true" signature="886:1188" ph="{...}" />
-            <marker date="1490899010471" expanded="true" signature="1208:1571" ph="Helper Methods" />
-            <marker date="1490899010471" expanded="true" signature="1273:1536" ph="{...}" />
-            <marker date="1490899010471" expanded="true" signature="1321:1471" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -312,15 +406,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding>
-            <marker date="1490899780982" expanded="true" signature="6:70" ph="..." />
-            <marker date="1490899780982" expanded="true" signature="115:1360" ph="{...}" />
-            <marker date="1490899780982" expanded="true" signature="119:651" ph="/// A Theory is a special type of test, used to verify a general statement about the system under development. ... " />
-            <marker date="1490899780982" expanded="true" signature="698:1358" ph="{...}" />
-            <marker date="1490899780982" expanded="true" signature="798:854" ph="{...}" />
-            <marker date="1490899780982" expanded="true" signature="858:1086" ph="/// Given a non-negative number, the square root of that number is always non-negative and,  ... " />
-            <marker date="1490899780982" expanded="true" signature="1176:1352" ph="{...}" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -341,6 +434,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1131">
+          <caret line="285" column="9" lean-forward="false" selection-start-line="285" selection-start-column="9" selection-end-line="285" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NUnitObjects/Objects/DatCalculator.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -356,33 +457,174 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NUnitObjects.UnitTests/Assertions/That.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="56" column="11" lean-forward="false" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+        <state relative-caret-position="441">
+          <caret line="70" column="72" lean-forward="false" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
           <folding>
-            <marker date="1490901065168" expanded="true" signature="6:114" ph="..." />
-            <marker date="1490901065168" expanded="true" signature="159:2976" ph="{...}" />
-            <marker date="1490901065168" expanded="true" signature="201:2974" ph="{...}" />
-            <marker date="1490901065168" expanded="true" signature="281:375" ph="{...}" />
-            <marker date="1490901065168" expanded="true" signature="442:713" ph="{...}" />
-            <marker date="1490901065168" expanded="true" signature="778:884" ph="{...}" />
-            <marker date="1490901065168" expanded="true" signature="894:2444" ph="///    1. The multiple assert block may contain any arbitrary code, not just asserts. ... " />
-            <marker date="1490901065168" expanded="true" signature="2499:2968" ph="{...}" />
-            <marker date="1490901065168" expanded="true" signature="2649:2956" ph="{...}" />
+            <marker date="1490901871414" expanded="true" signature="6:128" ph="..." />
+            <marker date="1490901871414" expanded="true" signature="173:3105" ph="{...}" />
+            <marker date="1490901871414" expanded="true" signature="215:3103" ph="{...}" />
+            <marker date="1490901871414" expanded="true" signature="295:389" ph="{...}" />
+            <marker date="1490901871414" expanded="true" signature="456:727" ph="{...}" />
+            <marker date="1490901871414" expanded="true" signature="792:898" ph="{...}" />
+            <marker date="1490901871414" expanded="true" signature="908:2458" ph="///    1. The multiple assert block may contain any arbitrary code, not just asserts. ... " />
+            <marker date="1490901871414" expanded="true" signature="2513:3097" ph="{...}" />
+            <marker date="1490901871414" expanded="true" signature="2663:3085" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.gitattributes">
+    <entry file="file://$PROJECT_DIR$/NUnitObjects.UnitTests/Assertions/Warnings.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="555">
+          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+          <folding>
+            <marker date="1490902698612" expanded="true" signature="6:36" ph="..." />
+            <marker date="1490902698612" expanded="true" signature="81:1079" ph="{...}" />
+            <marker date="1490902698612" expanded="true" signature="127:1077" ph="{...}" />
+            <marker date="1490902698612" expanded="true" signature="224:291" ph="{...}" />
+            <marker date="1490902698612" expanded="true" signature="352:668" ph="{...}" />
+            <marker date="1490902698612" expanded="true" signature="732:1071" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.gitignore">
+    <entry file="file://$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/AllItems.cs">
       <provider selected="true" editor-type-id="text-editor">
-          <folding />
+        <state relative-caret-position="195">
+          <caret line="13" column="93" lean-forward="false" selection-start-line="13" selection-start-column="93" selection-end-line="13" selection-end-column="93" />
+          <folding>
+            <marker date="1490903367553" expanded="true" signature="6:56" ph="..." />
+            <marker date="1490903367553" expanded="true" signature="102:1061" ph="{...}" />
+            <marker date="1490903367553" expanded="true" signature="148:1059" ph="{...}" />
+            <marker date="1490903367553" expanded="true" signature="309:497" ph="{...}" />
+            <marker date="1490903367553" expanded="true" signature="541:773" ph="{...}" />
+            <marker date="1490903367553" expanded="true" signature="818:1053" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/And.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="58" lean-forward="false" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+          <folding>
+            <marker date="1490904271764" expanded="true" signature="6:75" ph="..." />
+            <marker date="1490904271764" expanded="true" signature="121:627" ph="{...}" />
+            <marker date="1490904271764" expanded="true" signature="162:625" ph="{...}" />
+            <marker date="1490904271764" expanded="true" signature="214:303" ph="{...}" />
+            <marker date="1490904271764" expanded="true" signature="356:619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/AssignableFrom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <marker date="1490904490658" expanded="true" signature="68:546" ph="{...}" />
+            <marker date="1490904490658" expanded="true" signature="120:544" ph="{...}" />
+            <marker date="1490904490658" expanded="true" signature="169:538" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/AssignableTo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <marker date="1490905074090" expanded="true" signature="68:535" ph="{...}" />
+            <marker date="1490905074090" expanded="true" signature="118:533" ph="{...}" />
+            <marker date="1490905074090" expanded="true" signature="167:527" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NUnitObjects/Objects/AttributedObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1490905891355" expanded="true" signature="60:135" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/Attribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="101" lean-forward="false" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
+          <folding>
+            <marker date="1490906131347" expanded="true" signature="6:64" ph="..." />
+            <marker date="1490906131347" expanded="true" signature="110:610" ph="{...}" />
+            <marker date="1490906131347" expanded="true" signature="157:608" ph="{...}" />
+            <marker date="1490906131347" expanded="true" signature="296:602" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/CollectionContains.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+          <folding>
+            <marker date="1490906596305" expanded="true" signature="6:56" ph="..." />
+            <marker date="1490906596305" expanded="true" signature="102:966" ph="{...}" />
+            <marker date="1490906596305" expanded="true" signature="158:964" ph="{...}" />
+            <marker date="1490906596305" expanded="true" signature="207:958" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/CollectionEquivalent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="64" lean-forward="false" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+          <folding>
+            <marker date="1490906868838" expanded="true" signature="6:56" ph="..." />
+            <marker date="1490906868838" expanded="true" signature="102:548" ph="{...}" />
+            <marker date="1490906868838" expanded="true" signature="160:546" ph="{...}" />
+            <marker date="1490906868838" expanded="true" signature="209:540" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NUnitObjects/Objects/Item.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <marker date="1490907700391" expanded="true" signature="30:154" ph="{...}" />
+            <marker date="1490907700391" expanded="true" signature="54:152" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/CollectionOrdering.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <marker date="1490908592763" expanded="true" signature="6:103" ph="..." />
+            <marker date="1490908592763" expanded="true" signature="149:1405" ph="{...}" />
+            <marker date="1490908592763" expanded="true" signature="205:1403" ph="{...}" />
+            <marker date="1490908592763" expanded="true" signature="270:538" ph="{...}" />
+            <marker date="1490908592763" expanded="true" signature="606:1397" ph="{...}" />
+            <marker date="1490908592763" expanded="true" signature="676:868" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NUnitObjects.UnitTests/Constraints/CollectionSubset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <marker date="1490908667818" expanded="true" signature="68:212" ph="{...}" />
+            <marker date="1490908667818" expanded="true" signature="122:210" ph="{...}" />
+            <marker date="1490908667818" expanded="true" signature="171:204" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

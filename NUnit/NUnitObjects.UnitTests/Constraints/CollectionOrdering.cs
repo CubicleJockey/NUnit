@@ -13,7 +13,7 @@ namespace NUnitObjects.UnitTests.Constraints
         {
             var letters = new[] { "x", "xx", "xxx" };
 
-            const string property = nameof(letters.Length);
+            const string property = nameof(string.Length);
 
             Assert.That(letters, Is.Ordered.By(property));
             Assert.That(letters, Is.Not.Ordered.Descending.By(property));

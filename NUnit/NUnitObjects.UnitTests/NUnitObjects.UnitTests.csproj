@@ -61,6 +61,7 @@
     <Compile Include="Constraints\CollectionContains.cs" />
     <Compile Include="Constraints\CollectionEquivalent.cs" />
     <Compile Include="Constraints\CollectionOrdering.cs" />
+    <Compile Include="Constraints\CollectionSubset.cs" />
     <Compile Include="Mocks\MockAccountRespository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Attributes\TestCaseTests.cs" />
