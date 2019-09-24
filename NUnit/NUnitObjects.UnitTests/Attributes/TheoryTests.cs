@@ -17,12 +17,11 @@ namespace NUnitObjects.UnitTests.Attributes
 		[DatapointSource]
 		public IEnumerable<double> dataPoints;
 
-		[SetUp]
-		public void SetUp()
-		{
-			dataPoints = new[] { 0.0, 1.0, -1.0, 42.0 };
-		}
-
+        public TheoryTests()
+        {
+            dataPoints = new[] { 0.0, 1.0, -1.0, 42.0 };
+        }
+        
 		/// <summary>
 		/// Given a non-negative number, the square root of that number is always non-negative and, 
 		/// when multiplied by itself, gives the original number.
