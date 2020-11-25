@@ -15,9 +15,9 @@ namespace NUnitObjects.UnitTests
         [SetUp]
         public void Setup()
         {
-            accountRepository = new MockAccountRespository();
+            accountRepository = new MockAccountRepository();
             Assert.IsInstanceOf<IAccountRepository>(accountRepository);
-            Assert.IsAssignableFrom<MockAccountRespository>(accountRepository);
+            Assert.IsAssignableFrom<MockAccountRepository>(accountRepository);
         }
 
         [TearDown]

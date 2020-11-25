@@ -6,11 +6,11 @@ using NUnitObjects.Repository;
 
 namespace NUnitObjects.UnitTests.Mocks
 {
-    public class MockAccountRespository : IAccountRepository
+    public class MockAccountRepository : IAccountRepository
     {
         private readonly IEnumerable<Account> accounts;
 
-        public MockAccountRespository()
+        public MockAccountRepository()
         {
             accounts = new List<Account>
             {
