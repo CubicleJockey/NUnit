@@ -23,7 +23,7 @@ namespace NUnitObjects.Objects
 
         public void SomeException() => throw new NotImplementedException("Oh noes n' stuff.");
 
-        public async Task SomeExceptionAsync()
+        public static async Task SomeExceptionAsync()
         {
             await DoSomething();
         }
@@ -31,17 +31,13 @@ namespace NUnitObjects.Objects
         public void ThrowRandomException()
         {
             var number = random.Next(3);
-            switch (number)
+            throw number switch
             {
-                case 1:
-                    throw new NullReferenceException("Thingy");
-                case 2:
-                    throw new NotImplementedException("Oh noes n' stuff.");
-                case 3:
-                    throw new ArgumentException("Something");
-                default:
-                    throw new Exception("Some unknown exception.");
-            }
+                1 => new NullReferenceException("Thingy"),
+                2 => new NotImplementedException("Oh noes n' stuff."),
+                3 => new ArgumentException("Something"),
+                _ => new Exception("Some unknown exception.")
+            };
         }
 
         #region Helper Methods

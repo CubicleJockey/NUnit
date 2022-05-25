@@ -4,6 +4,7 @@ using NUnit.Framework;
 using NUnitObjects.Objects;
 
 using static System.Console;
+using static NUnit.Framework.Assert;
 
 namespace NUnitObjects.UnitTests.Assertions
 {
@@ -20,19 +21,19 @@ namespace NUnitObjects.UnitTests.Assertions
         [Test]
         public void BasicCollectionThatAssertion()
         {
-            Assert.That(numbers, Has.Exactly(6).GreaterThan(4));
-            Assert.That(numbers, Has.Exactly(5).LessThan(4));
-            Assert.That(numbers, Has.Exactly(2).EqualTo(5));
-            Assert.That(numbers, Has.Exactly(1).EqualTo(-13));
+            That(numbers, Has.Exactly(6).GreaterThan(4));
+            That(numbers, Has.Exactly(5).LessThan(4));
+            That(numbers, Has.Exactly(2).EqualTo(5));
+            That(numbers, Has.Exactly(1).EqualTo(-13));
         }
 
         [Test]
         public void AreEqualAndThatEquivalence()
         {
-            Assert.AreEqual(4, 2 + 2);
-            Assert.That(2 + 2, Is.EqualTo(4));
-        }
-
+            AreEqual(4, 2 + 2);
+            That(2 + 2, Is.EqualTo(4));
+        }      
+        
         /// <summary>
         ///    1. The multiple assert block may contain any arbitrary code, not just asserts.
         ///
@@ -65,13 +66,13 @@ namespace NUnitObjects.UnitTests.Assertions
             var calculator = new DatCalculator();
             var result = calculator.SomeCalculation();
 
-            Assert.Multiple(() =>
+            Multiple(() =>
             {
-                Assert.IsNotNull(result);
-                Assert.IsInstanceOf<ValueTuple<double, double>>(result);
+                IsNotNull(result);
+                IsInstanceOf<ValueTuple<double, double>>(result);
                 WriteLine($"RealPart:[{result.RealPart}] - ImaginaryPart:[{result.ImaginaryPart}]");
-                Assert.That(result.RealPart, Is.InRange(0.0, 100.00), "Real Part");
-                Assert.That(result.ImaginaryPart, Is.InRange(0.0, 100.00), "Imaginary Part");
+                That(result.RealPart, Is.InRange(0.0, 100.00), "Real Part");
+                That(result.ImaginaryPart, Is.InRange(0.0, 100.00), "Imaginary Part");
             });
         }
     }

@@ -24,9 +24,9 @@ namespace NUnitObjects.UnitTests.Constraints
         {
             IList<Item> items = new List<Item>
             {
-                new Item{ PropertyA = 3, PropertyB = 66 },
-                new Item{ PropertyA = 13, PropertyB = 12 },
-                new Item{ PropertyA = 22, PropertyB = 90 }
+                new(){ PropertyA = 3, PropertyB = 66 },
+                new(){ PropertyA = 13, PropertyB = 12 },
+                new(){ PropertyA = 22, PropertyB = 90 }
             };
 
             var orderedItems = items.OrderBy(item => item.PropertyA)

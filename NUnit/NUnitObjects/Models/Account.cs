@@ -28,10 +28,7 @@ namespace NUnitObjects.Models
 
         #region Methods
 
-        public void Deposit(decimal amount)
-        {
-            Balance += amount;
-        }
+        public void Deposit(decimal amount) => Balance += amount;
 
         public void WithDraw(decimal amount)
         {

@@ -1,6 +1,9 @@
 ﻿using System;
 using NUnit.Framework;
 
+using static System.Console;
+using static NUnit.Framework.Assert;
+
 namespace NUnitObjects.UnitTests.Attributes
 {
     [TestFixture]
@@ -13,22 +16,19 @@ namespace NUnitObjects.UnitTests.Attributes
         [Repeat(REPEAT)]
         public void RepeatedTests_Success()
         {
-            Console.WriteLine($"Success run number {++count}");
+            WriteLine($"Success run number {++count}");
         }
 
         [Test]
         [Repeat(REPEAT)]
         public void RepeatedTests_Stop()
         {
-            const int FAILON = 3;
+            const int FAIL_ON = 3;
             //test run increment
             count = ++count;
 
-            if(count == FAILON)
-            {
-                Assert.Fail($"Repeat Failure, no tests past {FAILON}");
-            }
-            Console.WriteLine($"Success run number {count}");
+            if(count == FAIL_ON) { Fail($"Repeat Failure, failed on step {count} of {REPEAT}"); }
+            WriteLine($"Success run number {count}");
         }
     }
 }

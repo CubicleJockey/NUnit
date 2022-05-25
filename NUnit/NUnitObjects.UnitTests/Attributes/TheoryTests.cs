@@ -15,11 +15,11 @@ namespace NUnitObjects.UnitTests.Attributes
     public class TheoryTests
     {
 		[DatapointSource]
-		public IEnumerable<double> dataPoints;
+		public IEnumerable<double> DataPoints;
 
         public TheoryTests()
         {
-            dataPoints = new[] { 0.0, 1.0, -1.0, 42.0 };
+            DataPoints = new[] { 0.0, 1.0, -1.0, 42.0 };
         }
         
 		/// <summary>

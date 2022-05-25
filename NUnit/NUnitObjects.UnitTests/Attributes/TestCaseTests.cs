@@ -1,4 +1,6 @@
 ﻿using static System.Console;
+using static NUnit.Framework.Assert;
+
 using NUnit.Framework;
 using NUnitObjects.Models;
 
@@ -15,36 +17,21 @@ namespace NUnitObjects.UnitTests.Attributes
 		[TestCase(12, 3, 4)]
 		[TestCase(12, 2, 6)]
 		[TestCase(12, 4, 3)]
-		public void DivideTests(int numerator, int denominator, int quotient)
-		{
-			Assert.AreEqual(quotient, numerator / denominator);
-		}
+		public void DivideTests(int numerator, int denominator, int quotient) => AreEqual(quotient, numerator / denominator);
 
 		[TestCase(12, 3, ExpectedResult = 4)]
 		[TestCase(12, 2, ExpectedResult = 6)]
 		[TestCase(12, 4, ExpectedResult = 3)]
-		public int DivideTestSimplified(int numerator, int demoniator)
-		{
-			return (numerator / demoniator);
-		}
+		public int DivideTestSimplified(int numerator, int demoniator) => (numerator / demoniator);
 
 		[TestCase(IgnoreReason = "Because I hate this test.")]
-		public void IgnoreAndReasonTests()
-		{
-			//Ignored
-		}
+		public void IgnoreAndReasonTests() { /* Ignored */ }
 
 		[TestCase(IncludePlatform = "Win95, Win98, WinME, Win7, Win10, Net-2.0, Unix, Linux")]
-		public void IncludeThesePlatforms()
-		{
-			//platforms this is valid on
-		}
+		public void IncludeThesePlatforms() { /* platforms this is valid on */ }
 
 		[TestCase(ExcludePlatform = "Mono, Mono-1.0, Mono-2.0")]
-		public void ExcludeThesePlatforms()
-		{
-			//Excluded Platforms
-		}
+		public void ExcludeThesePlatforms() { /*Excluded Platforms*/ }
 
 		/// <summary>
 		/// You can currently only have one TestOf attribute per fixture or test.

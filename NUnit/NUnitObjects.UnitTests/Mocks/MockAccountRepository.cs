@@ -14,20 +14,17 @@ namespace NUnitObjects.UnitTests.Mocks
         {
             accounts = new List<Account>
             {
-                new Account("A", 0m),
-                new Account("B", 10m),
-                new Account("C", 20m),
-                new Account("D", 30m),
-                new Account("E", 40m)
+                new ("A", 0m),
+                new ("B", 10m),
+                new ("C", 20m),
+                new ("D", 30m),
+                new ("E", 40m)
             };
         } 
 
         #region Implementation of IAccountRepository
 
-        public IEnumerable<Account> GetAll()
-        {
-            return accounts;
-        }
+        public IEnumerable<Account> GetAll() => accounts;
 
         public Account GetAccount(string accountName)
         {
@@ -39,10 +36,7 @@ namespace NUnitObjects.UnitTests.Mocks
             return account;
         }
 
-        public IEnumerable<Account> Contains(string text)
-        {
-            return accounts.Where(a => a.AccountName.Contains(text));
-        }
+        public IEnumerable<Account> Contains(string text) => accounts.Where(a => a.AccountName.Contains(text));
 
         #endregion
     }

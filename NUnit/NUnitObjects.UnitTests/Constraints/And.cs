@@ -1,6 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using NUnit.Framework;
 using System.Linq;
-using NUnit.Framework;
 
 namespace NUnitObjects.UnitTests.Constraints
 {
@@ -8,10 +7,7 @@ namespace NUnitObjects.UnitTests.Constraints
     public class And
     {
         [Test]
-        public void BasicAdd()
-        {
-            Assert.That(2.3, Is.GreaterThan(2.0).And.LessThan(3.0));
-        }
+        public void BasicAdd() => Assert.That(2.3, Is.GreaterThan(2.0).And.LessThan(3.0));
 
         [Test]
         public void CollectionAdds()

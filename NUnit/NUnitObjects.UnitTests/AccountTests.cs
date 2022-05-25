@@ -12,25 +12,25 @@ namespace NUnitObjects.UnitTests
         [Test]
         public void DefaultConstructor()
         {
-            const string ACCOUNTNAME = "A";
-            var account = new Account(ACCOUNTNAME);
+            const string ACCOUNT_NAME = "A";
+            var account = new Account(ACCOUNT_NAME);
 
             Assert.IsNotNull(account);
             Assert.IsInstanceOf<Account>(account);
-            Assert.AreEqual(ACCOUNTNAME, account.AccountName);
+            Assert.AreEqual(ACCOUNT_NAME, account.AccountName);
             Assert.AreEqual(0, account.Balance);
         }
 
         [Test]
         public void BalanceConstructor()
         {
-            const string ACCOUNTNAME = "Rammstein";
+            const string ACCOUNT_NAME = "Rammstein";
             var startingBalance = new decimal(102000.14);
-            var account = new Account(ACCOUNTNAME, startingBalance);
+            var account = new Account(ACCOUNT_NAME, startingBalance);
 
             Assert.IsNotNull(account);
             Assert.IsInstanceOf<Account>(account);
-            Assert.AreEqual(ACCOUNTNAME, account.AccountName);
+            Assert.AreEqual(ACCOUNT_NAME, account.AccountName);
             Assert.AreEqual(startingBalance, account.Balance);
         }
 

@@ -19,7 +19,6 @@ namespace NUnitObjects.UnitTests.Constraints
         public void IsAll()
         {
             Assert.That(multiTypeCollection, Is.All.Not.Null);
-
             Assert.That(sameTypeCollection, Is.All.InstanceOf<int>());
             Assert.That(sameTypeCollection, Is.All.GreaterThanOrEqualTo(1));
         }

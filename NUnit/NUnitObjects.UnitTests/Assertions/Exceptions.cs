@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using NUnitObjects.Objects;
+using System;
 
 namespace NUnitObjects.UnitTests.Assertions
 {
@@ -29,7 +28,7 @@ namespace NUnitObjects.UnitTests.Assertions
         [Test]
         public void AssertAndCheckAsyncException()
         {
-            var exception = Assert.ThrowsAsync<TimeoutException>(() => thrower.SomeExceptionAsync());
+            var exception = Assert.ThrowsAsync<TimeoutException>(async () => await ExceptionThrower.SomeExceptionAsync());
 
             Assert.IsNotNull(exception);
             Assert.IsInstanceOf<TimeoutException>(exception);
@@ -48,7 +47,7 @@ namespace NUnitObjects.UnitTests.Assertions
         [Test]
         public void AssertAnExceptionWasThrownAsync()
         {
-            var exception = Assert.CatchAsync<TimeoutException>(() => thrower.SomeExceptionAsync());
+            var exception = Assert.CatchAsync<TimeoutException>(async () => await ExceptionThrower.SomeExceptionAsync());
 
             Assert.IsNotNull(exception);
             Assert.IsInstanceOf<TimeoutException>(exception);
